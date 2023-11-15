@@ -3,6 +3,7 @@
 ## Simulation for FIR
 ```sh
 cd ~/caravel-soc_fpga-lab/lab-exmem-fir/testbench/counter_la_fir
-source run_clean
-source run_sim
+chmod +x ./run*
+./run_clean
+./run_sim
 ```
